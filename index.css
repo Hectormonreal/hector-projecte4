@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+}
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+main{
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.gallery img {
+    width: 300px;
+    height: auto;
+    border: 2px solid rgb(131, 118, 118);
+    border-radius: 8px;
+}
+.gallery img:hover {
+    border-color: #777;
+    transform: scale(1.05);
+    transition: transform 0.3s, border-color 0.3s;
+}
+.item{
+    text-align: center;
+    border: 2px solid rgb(131, 118, 118);
+    border-radius: 8px;
+    padding: 10px;
+}
