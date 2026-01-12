@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color:#252525 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    width: 1440px;
+    height: 926px;
+    background-color: white;
+}
+
+.titulo{
+    width: 833px;
+    height: 176px;
+    margin-top: 64px;
+    margin-left: 64px;
+
+}
+
+.titulo h1{
+    font-weight: 550;
+    font-size: 70px;
+    line-height: 88px;
+    color: #252525;
+}
+
+.cartas{
+    width: 1312px;
+    height: 559px;
+    gap: 16px;
+    margin-left: 64px;
+    margin-top: 64px;
+}
+
+.span{
+    color: #25252559;
+    font-weight: 550;
+    font-size: 40px;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.parrafo{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #252525CC;
+}
+
+.frame{
+    width: 316px;
+    height: 559px;
+}
