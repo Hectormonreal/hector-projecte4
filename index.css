@@ -1,11 +1,10 @@
-/* Reseteig bàsic de marges i padding */
+
  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Estils per al body */
 body {
   
   font-family: Arial, sans-serif;
@@ -17,7 +16,6 @@ body {
   flex-direction: column;
 }
 
-/* Capçalera */
 header {
   
   background-color: #212121;
@@ -40,7 +38,6 @@ main{
   align-items: center;
   justify-content: center;
 }
-/* Secció d'introducció */
 .intro {
   margin: 1.5rem auto;
   padding: 0 1rem;
@@ -51,7 +48,6 @@ main{
   line-height: 1.5;
 }
 
-/* Galeria */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -70,7 +66,6 @@ main{
   justify-content: space-between;
   width: 25%;
   border-radius: 4px;
-  /* overflow: hidden; */
   text-align: center;
   padding: 1rem;
   transition: box-shadow 0.3s ease;
@@ -94,13 +89,11 @@ main{
   font-size: 1rem;
 }
 
-/* Enllaços */
 .gallery-item a {
   text-decoration: none;
   color: inherit;
 }
 
-/* Peu de pàgina */
 footer {
   background-color: #212121;
   color: #fff;
